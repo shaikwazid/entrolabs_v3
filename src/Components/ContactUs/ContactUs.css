@@ -11,7 +11,7 @@
 }
 
 .contact-info h2 span {
-    background: linear-gradient(120deg, #2e303e, #4f6339);
+    background: linear-gradient(120deg, #2e303e, var(--main_bg));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shimmer 3s infinite linear;
@@ -23,7 +23,7 @@
 }
 
 .contact-info .icon {
-    color: #4f6339;
+    color: var(--main_bg);
     margin-right: 10px;
     font-size: 19px;
     background: #e5f8e7af;
@@ -74,7 +74,7 @@
 }
 
 .info-box h5 {
-    color: #4f6339;
+    color: var(--main_bg);
     margin-bottom: 5px;
     font-size: 17px !important;
 }
@@ -111,13 +111,13 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #4f6339;
+    border-color: var(--main_bg);
     box-shadow: 0 0 0 2px rgba(79, 99, 57, 0.15);
 }
 
 /* BUTTON */
 .btn-submit {
-    background: #4f6339;
+    background: var(--main_bg);
     color: #fff;
     padding: 12px 25px;
     border: none;
@@ -164,7 +164,7 @@
     margin-bottom: 15px;
     /* color: #222; */
     text-align: center;
-    background: linear-gradient(120deg, #2e303e, #4f6339);
+    background: linear-gradient(120deg, #2e303e, var(--main_bg));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shimmer 3s infinite linear;

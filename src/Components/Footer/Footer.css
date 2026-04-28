@@ -27,7 +27,6 @@
 }
 
 .ve-logo-icon {
-   background: var(--ve-gold);
    color: #000;
    font-weight: bold;
    padding: 6px 10px;
@@ -42,7 +41,7 @@
 /* BRAND TEXT */
 .ve-footer-brand p {
    font-size: 16px;
-   color: #4f6339;
+   color: var(--main_bg);
    /* color: rgba(255, 255, 255, 0.6); */
    line-height: 1.8;
    margin: 18px 0 24px;
@@ -68,7 +67,7 @@
 }
 
 .ve-social a:hover {
-   background: var(--ve-gold);
+   background: var(--bright_bg);
    color: #000;
    transform: translateY(-3px);
 }
@@ -77,10 +76,15 @@
 .ve-footer-title {
    font-size: 14px;
    font-weight: 700;
-   color: #493932;
+   background: linear-gradient(170deg, var(--second_c), var(--title_c));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: shimmer 3s infinite linear;
+   /* color: var(--main_bg); */
+   /* color: #493932; */
    /* color: #fff; */
    margin-bottom: 20px;
-   border-bottom: 1px solid #493932;
+   border-bottom: 1px solid var(--bright_bg);
    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
    padding-bottom: 10px;
    text-transform: uppercase;
@@ -98,14 +102,14 @@
 }
 
 .ve-footer-links a {
-   color: #4f6339;
+   color: var(--main_bg);
    /* color: rgba(255, 255, 255, 0.6); */
    text-decoration: none;
    transition: var(--ve-trans);
 }
 
 .ve-footer-links a:hover {
-   color: var(--ve-gold);
+   color: var(--bright_bg);
    padding-left: 5px;
 }
 
@@ -116,7 +120,7 @@
 }
 
 .ve-footer-contact li {
-   color: #4f6339;
+   color: var(--main_bg);
    margin-bottom: 12px;
    display: flex;
    gap: 10px;
@@ -131,7 +135,8 @@
    margin-top: 30px;
    padding: 20px 0;
    border-top: 1px solid rgba(255, 255, 255, 0.1);
-   background: #4f6339;
+   background: #003135;
+   /* background: var(--main_bg); */
    /* background: #493932; */
 }
 
@@ -192,7 +197,7 @@
 .ve-footer {
    position: relative;
    /* background: #ece8d3; */
-   background: linear-gradient(rgba(166, 255, 0, 0.18), rgba(255, 255, 255, 0.468)), url('../../assets/bg_images/bg_dots.png') center / contain no-repeat;
+   background: linear-gradient(#afdde5, rgba(255, 255, 255, 0.468)), url('../../assets/bg_images/bg_dots.png') center / contain no-repeat;
 
    /* background: #020617; */
    padding: 100px 0 0;
@@ -219,7 +224,8 @@
    gap: 12px;
    margin-bottom: 14px;
    font-size: 14px;
-   color: #493932;
+   color: var(--main_bg);
+   /* color: #493932; */
    line-height: 1.6;
    padding: 8px 10px;
    border-radius: 10px;
@@ -228,7 +234,7 @@
 
 /* ICON STYLE */
 .ve-footer-contact .icon {
-   color: #4f6339;
+   color: var(--main_bg);
    font-size: 16px;
    margin-top: 3px;
    min-width: 18px;
@@ -237,7 +243,7 @@
 
 /* LINKS */
 .ve-footer-contact a {
-   color: #493932;
+   color: var(--main_bg);
    text-decoration: none;
    transition: 0.3s;
 }
@@ -248,19 +254,20 @@
 }
 
 .ve-footer-contact li:hover .icon {
-   color: #493932;
+   color: var(--bright_bg);
+   /* color: #493932; */
 }
 
 .ve-footer-contact a:hover {
-   color: #4f6339;
+   color: var(--main_bg);
 }
 
 
 
 .f_shape {
    /* padding: 100px 0; */
-   /* background: linear-gradient(135deg, #4f6339, #493932); */
-   /* background: #4f6339; */
+   /* background: linear-gradient(135deg, var(--main_bg), #493932); */
+   /* background: var(--main_bg); */
    position: relative;
    overflow: hidden;
 }

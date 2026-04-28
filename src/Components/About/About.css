@@ -19,12 +19,12 @@
 .experience {
     font-size: 70px;
     font-weight: 800;
-    color: #4f6339;
+    color: var(--main_bg);
     margin: 0;
 }
 
 .exp-text {
-    color: #4f6339;
+    color: var(--main_bg);
     margin-bottom: 15px;
     font-size: 15px;
 }
@@ -46,7 +46,7 @@
 
 /* BUTTON */
 .about-btn {
-    background: #4f6339;
+    background: var(--main_bg);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -75,7 +75,7 @@
 /* ICON */
 .icon {
     font-size: 50px;
-    color: #4f6339;
+    color: var(--main_bg);
     margin-top: 5px;
 }
 
@@ -114,7 +114,7 @@
 /* ================= STATS ================= */
 /* subtle pattern overlay */
 .stats-section {
-    background: linear-gradient(135deg, #4f6339, #493932);
+    background: linear-gradient(135deg, var(--main_bg), #493932);
 }
 
 .stats-section::before {
@@ -141,8 +141,8 @@
 /* ================= SECTION ================= */
 .stats-section {
     padding: 100px 0;
-    /* background: linear-gradient(135deg, #4f6339, #493932); */
-    background: #4f6339;
+    /* background: linear-gradient(135deg, var(--main_bg), #493932); */
+    background: var(--main_bg);
     position: relative;
     overflow: hidden;
 }
@@ -277,7 +277,7 @@
 .stat-card h3 {
     font-size: 32px;
     font-weight: 800;
-    color: #4f6339;
+    color: var(--main_bg);
     /* color: #fff; */
     margin-bottom: 5px;
 }
@@ -345,7 +345,7 @@
 .badge {
     display: inline-block;
     background: rgba(79, 99, 57, 0.1);
-    color: #4f6339;
+    color: var(--main_bg);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 13px;
@@ -354,7 +354,7 @@
 
 /* experience */
 .experience {
-    color: #4f6339;
+    color: var(--main_bg);
     font-size: 60px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -378,7 +378,7 @@
 
 /* highlight name */
 .history-content strong {
-    color: #4f6339;
+    color: var(--main_bg);
 }
 
 /* ================= RESPONSIVE ================= */
@@ -406,7 +406,7 @@
 }
 
 .team-subtitle {
-    color: #4f6339;
+    color: var(--main_bg);
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 13px;
@@ -461,7 +461,7 @@
     content: "";
     width: 30px;
     height: 2px;
-    background: #4f6339;
+    background: var(--main_bg);
     display: block;
     margin: 10px auto;
 }
@@ -477,7 +477,7 @@
 /* role */
 .team-text p {
     font-size: 13px;
-    color: #4f6339 !important;
+    color: var(--main_bg) !important;
     letter-spacing: 1px;
 }
 
@@ -496,7 +496,7 @@
 
     background: #fff;
     border: 1px solid #eee;
-    color: #4f6339;
+    color: var(--main_bg);
 
     display: flex;
     align-items: center;
@@ -508,9 +508,9 @@
 
 /* hover */
 .team-social .btn:hover {
-    background: #4f6339;
+    background: var(--main_bg);
     color: #fff;
-    border-color: #4f6339;
+    border-color: var(--main_bg);
 }
 
 .team-social svg {

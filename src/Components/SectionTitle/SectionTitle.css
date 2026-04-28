@@ -20,7 +20,10 @@
    letter-spacing: 2px;
    text-transform: uppercase;
    /* color: #2e303e; */
-   color: #4f6339;
+   color: var(--second_c);
+   /* color: var(--bright_bg); */
+   /* color: #333a56; */
+   /* color: #4f6339; */
    /* color: rgb(11 33 94); */
    /* color: #999; */
    font-weight: 900;
@@ -33,18 +36,10 @@
 .lux-heading {
    font-size: 35px;
    font-weight: 700;
-   color: #493932;
-   /* color: #111; */
    letter-spacing: -.5px;
 }
 
-.lux-heading span {
-   background: linear-gradient(120deg, #2e303e, #4f6339);
-   /* background: linear-gradient(120deg, #0d6efd, #5aaf69, #4fc964); */
-   /* background:linear-gradient(120deg,#c9a94f,#f5e6b3,#c9a94f); */
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
+
 
 
 /* divider */
@@ -172,8 +167,16 @@
          transparent);
 }
 
-.lux-heading span {
-   background: linear-gradient(120deg, #2e303e, #4f6339);
+/* .lux-heading span {
+   background: linear-gradient(120deg, var(--second_c), var(--title_c));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: shimmer 3s infinite linear;
+} */
+.lux-heading {
+   /* background: linear-gradient(120deg, #024950, #0fa4af); */
+   background: linear-gradient(120deg, var(--second_c), var(--title_c));
+   /* background: linear-gradient(120deg, #2e303e, #4f6339); */
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    animation: shimmer 3s infinite linear;

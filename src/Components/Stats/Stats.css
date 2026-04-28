@@ -137,9 +137,9 @@
 
 /* ================= STATS ================= */
 /* subtle pattern overlay */
-.stats-section {
+/* .stats-section {
    background: linear-gradient(135deg, #4f6339, #493932);
-}
+} */
 
 .stats-section::before {
    background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
@@ -166,7 +166,10 @@
 .stats-section {
    padding: 100px 0;
    /* background: linear-gradient(135deg, #4f6339, #493932); */
-   background: #4f6339;
+   background: var(--main_bg);
+   /* background: #52658f; */
+   /* background: #52658f; */
+   /* background: #4f6339; */
    position: relative;
    overflow: hidden;
 }
@@ -196,7 +199,7 @@
    }
 
    50% {
-      transform: translateY(-3px);
+      transform: translateY(-8px);
       /* move up */
    }
 

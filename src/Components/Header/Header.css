@@ -21,7 +21,10 @@
 }
 
 .header.scrolled .navbar-custom {
-  background: #4f6339 !important;
+  background: linear-gradient(135deg, var(--second_c), var(--bright_bg)) !important;
+  /* background: var(--bright_bg) !important; */
+  /* background: #52658f !important; */
+  /* background: #4f6339 !important; */
   /* background: rgba(255, 255, 255, 0.95); */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
@@ -65,7 +68,10 @@
 
 .navbar-nav {
   align-items: center;
-  background: #ffffffb8 !important;
+  background: var(--white) !important;
+  /* background: #f7f5e6ee !important; */
+  /* background: #f7f5e6ee !important; */
+  /* background: #ffffffb8 !important; */
   /* background: #fff !important; */
   border-radius: 22px;
   padding: 6px 8px;
@@ -92,7 +98,8 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: #ece8d3;
+  background: #6071b3;
+  /* background: #ece8d3; */
   /* background: #eef4ff; */
   transform: scaleX(0);
   transform-origin: left;
@@ -102,6 +109,7 @@
   border-radius: 6px;
   /* border-radius: 8px; */
   z-index: -1;
+  /* z-index: -1; */
 }
 
 .navbar .nav-link:hover::before,

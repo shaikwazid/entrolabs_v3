@@ -97,7 +97,8 @@
     margin-top: 100px;
     padding: 60px;
     border-radius: 20px;
-    background: linear-gradient(135deg, #4f6339, #493932);
+    background: linear-gradient(135deg, var(--main_bg), var(--bright_bg));
+    /* background: linear-gradient(135deg, #4f6339, #493932); */
     color: white;
 }
 
