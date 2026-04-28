@@ -7,7 +7,7 @@
 .projects-header h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #493932;
+    color: var(--main_bg);
 }
 
 .projects-header p {
@@ -38,7 +38,7 @@
 .project-img {
     position: relative;
     overflow: hidden;
-    /* background: #4f6339; */
+    /* background: var(--main_bg); */
 }
 
 .project-img img {
@@ -56,7 +56,7 @@
 .project-card .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(79, 99, 57, 0.9);
+    background: rgba(57, 98, 99, 0.781);
     color: #fff;
     opacity: 0;
     transition: 0.4s;
@@ -86,7 +86,7 @@
 }
 
 .project-content h5 {
-    color: #4f6339;
+    color: var(--main_bg);
     margin-bottom: 10px;
     font-size: 15px;
     text-align: center;
@@ -109,7 +109,7 @@
 
 .tech-stack span {
     background: #eef3ec;
-    color: #4f6339;
+    color: var(--main_bg);
     padding: 5px 10px;
     border-radius: 6px;
     font-size: 13px;
@@ -117,7 +117,7 @@
 }
 
 .tech-stack span:hover {
-    background: #4f6339;
+    background: var(--main_bg);
     color: #fff;
 }
 
@@ -139,6 +139,6 @@
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #4f6339 25%, #4f6339 75%, transparent);
+    background: linear-gradient(90deg, transparent, var(--main_bg) 25%, var(--main_bg) 75%, transparent);
     z-index: 1;
 }

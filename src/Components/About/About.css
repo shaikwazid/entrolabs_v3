@@ -32,7 +32,7 @@
 .about-content h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #493932;
+    color: var(--second_c);
     line-height: 1.2;
     margin-bottom: 15px;
 }
@@ -56,7 +56,7 @@
 }
 
 .about-btn:hover {
-    background: #493932;
+    background: var(--second_c);
 }
 
 /* ================= FEATURES ================= */
@@ -82,7 +82,7 @@
 /* TEXT */
 .feature-box h5 {
     font-weight: 600;
-    color: #493932;
+    color: var(--second_c);
     margin-bottom: 5px;
 }
 
@@ -114,7 +114,7 @@
 /* ================= STATS ================= */
 /* subtle pattern overlay */
 .stats-section {
-    background: linear-gradient(135deg, var(--main_bg), #493932);
+    background: linear-gradient(135deg, var(--main_bg), var(--second_c));
 }
 
 .stats-section::before {
@@ -141,7 +141,7 @@
 /* ================= SECTION ================= */
 .stats-section {
     padding: 100px 0;
-    /* background: linear-gradient(135deg, var(--main_bg), #493932); */
+    /* background: linear-gradient(135deg, var(--main_bg), var(--second_c)); */
     background: var(--main_bg);
     position: relative;
     overflow: hidden;
@@ -364,7 +364,7 @@
 .history-content h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #493932;
+    color: var(--second_c);
     margin-bottom: 15px;
 }
 
@@ -415,7 +415,7 @@
 .team-title {
     font-size: 40px;
     font-weight: 700;
-    color: #493932;
+    color: var(--second_c);
 }
 
 /* ================= ITEM ================= */
@@ -470,7 +470,7 @@
 .team-text h4 {
     font-size: 17px;
     font-weight: 600;
-    color: #493932;
+    color: var(--second_c);
     margin-bottom: 5px;
 }
 

@@ -1,7 +1,7 @@
 .whychoose-section {
     padding: 50px;
     background: linear-gradient(135deg, var(--bright_bg), var(--second_c));
-    /* background: linear-gradient(135deg, #4f6339, #493932); */
+    /* background: linear-gradient(135deg, var(--main_bg), #493932); */
     /* background: linear-gradient(135deg, #f4f7f2, #ffffff); */
 }
 
@@ -45,7 +45,7 @@
 }
 
 .why-text h2 span {
-    color: #4f6339;
+    color: var(--main_bg);
 }
 
 .why-text p {
@@ -56,7 +56,7 @@
 
 .why-btn {
     padding: 12px 30px;
-    background: #4f6339;
+    background: var(--main_bg);
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -74,7 +74,7 @@
 }
 
 .swiper-pagination-bullet-active {
-    background: #4f6339;
+    background: var(--main_bg);
 }
 
 /* Responsive */
