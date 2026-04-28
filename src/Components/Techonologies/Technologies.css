@@ -2,7 +2,7 @@
    padding: 40px 0;
    position: relative;
    z-index: 1;
-   background-color: #e8e8e8;
+   background-color: var(--bg_c);
    /* background-color: #ece8d3; */
 
 }
