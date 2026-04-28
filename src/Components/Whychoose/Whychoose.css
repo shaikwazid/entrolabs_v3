@@ -1,6 +1,7 @@
 .whychoose-section {
     padding: 50px;
-    background: linear-gradient(135deg, var(--bright_bg), var(--second_c));
+    background: var(--title_c2);
+    /* background: linear-gradient(135deg, var(--bright_bg), var(--second_c)); */
     /* background: linear-gradient(135deg, var(--main_bg), #493932); */
     /* background: linear-gradient(135deg, #f4f7f2, #ffffff); */
 }
