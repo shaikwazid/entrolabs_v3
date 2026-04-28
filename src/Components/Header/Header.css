@@ -24,7 +24,7 @@
   background: linear-gradient(135deg, var(--second_c), var(--bright_bg)) !important;
   /* background: var(--bright_bg) !important; */
   /* background: #52658f !important; */
-  /* background: #4f6339 !important; */
+  /* background: var(--main_bg) !important; */
   /* background: rgba(255, 255, 255, 0.95); */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
@@ -197,12 +197,12 @@
 .dropdown-item:hover {
   background: #f3f7ff;
   /* background: #f3f7ff; */
-  color: #4f6339;
+  color: var(--main_bg);
   padding-left: 28px;
 }
 
 .dropdown-item.active {
-  background: #4f6339;
+  background: var(--main_bg);
   /* background: #f3f7ff; */
   color: #fff;
   padding-left: 28px;
