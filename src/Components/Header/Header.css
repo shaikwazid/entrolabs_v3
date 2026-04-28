@@ -68,7 +68,8 @@
 
 .navbar-nav {
   align-items: center;
-  background: var(--white) !important;
+  background: #ffffffba !important;
+  /* background: var(--white) !important; */
   /* background: #f7f5e6ee !important; */
   /* background: #f7f5e6ee !important; */
   /* background: #ffffffb8 !important; */
@@ -98,7 +99,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: #6071b3;
+  background: #ffffff;
   /* background: #ece8d3; */
   /* background: #eef4ff; */
   transform: scaleX(0);
@@ -128,7 +129,7 @@
   bottom: 4px;
   width: 0%;
   height: 2px;
-  background: #4f6339;
+  background: var(--main_bg);
   /* background: #0d6efd; */
   transition: .3s ease;
 }

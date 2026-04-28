@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo1 from "../../assets/logo-white.png";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 import "./Header.css";
 import { techData } from "../Techonologies/techdata";
 import { RiMenuFoldFill, RiCloseLine } from "react-icons/ri";
@@ -29,10 +30,21 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light navbar-custom py-2">
                 <div className="container">
 
-                    {/* LOGO */}
-                    <NavLink className="navbar-brand" to="/" onClick={handleNavClick}>
-                        <img src={logo1} alt="logo" style={{ width: "150px" }} />
-                    </NavLink>
+                 {/* LOGO */}
+                <NavLink className="navbar-brand" to="/" onClick={handleNavClick}>
+                <motion.img
+                    src={logo1}
+                    alt="logo"
+                    style={{ width: "150px" }}
+                    
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+
+                    whileHover={{ scale: 1.1, rotate: 2 }}
+                    whileTap={{ scale: 0.95 }}
+                />
+                </NavLink>
 
                     {/* TOGGLER */}
                     <button
